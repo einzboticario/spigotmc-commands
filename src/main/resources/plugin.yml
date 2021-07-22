@@ -1,0 +1,21 @@
+name: SpigotMCCommands
+version: ${project.version}
+main: me.einzluis.spigotmccommands.SpigotmcCommands
+api-version: 1.17
+authors: [ einzluis ]
+description: Simple MC plugin with basic commands
+
+commands:
+  god:
+    description: Sets the player invincible
+  fly:
+    description: Allows player to fly
+  heal:
+    description: Sets player health to full
+  eat:
+    description: Sets player hunger to full
+
+  die:
+    description: Sets player health to none
+  damage:
+    description: Removes 1 heart from player
