@@ -14,8 +14,8 @@ commands:
     description: Sets player health to full
   eat:
     description: Sets player hunger to full
+  kill:
+    description: Kill yourself / Kill a player
 
-  die:
-    description: Sets player health to none
   damage:
     description: Removes 1 heart from player

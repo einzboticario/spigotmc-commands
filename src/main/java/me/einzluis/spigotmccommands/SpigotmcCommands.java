@@ -9,13 +9,11 @@ public final class SpigotmcCommands extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getCommand("damage").setExecutor(new Damage());
-        getCommand("die").setExecutor(new Die());
         getCommand("eat").setExecutor(new Eat());
         getCommand("fly").setExecutor(new Fly());
         getCommand("god").setExecutor(new God());
         getCommand("heal").setExecutor(new Heal());
-
-        // Test
+        getCommand("kill").setExecutor(new Kill());
     }
 
 }

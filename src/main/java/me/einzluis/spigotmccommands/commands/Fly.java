@@ -14,7 +14,7 @@ public class Fly implements CommandExecutor {
         // Checks if the sender is a player
         if(sender instanceof Player){
             Player player = (Player) sender;
-            // Checks if the player has permission (Do /op [player] to access fly)
+            // Checks if the player has permission (Do /op [player] to access command)
             if(player.hasPermission("spigotmccommands.fly")){
                 if(player.getAllowFlight()){
                     // If the command is on, turn it off
