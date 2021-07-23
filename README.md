@@ -1,1 +1,1 @@
-# spigot-mc-commands
+Commands plugin for Spigot API
