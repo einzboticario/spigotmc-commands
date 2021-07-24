@@ -17,8 +17,10 @@ commands:
   kill:
     description: Kill yourself / Kill a player
   playervault:
-    description: Opens player vault with 45 slots.
+    description: Opens player vault
     aliases: [vault, pv, pvault]
+  craft:
+    description: Opens crafting table
 
   damage:
     description: Removes 1 heart from player
