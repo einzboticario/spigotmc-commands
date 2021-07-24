@@ -14,6 +14,7 @@ public final class SpigotmcCommands extends JavaPlugin {
         getCommand("god").setExecutor(new God());
         getCommand("heal").setExecutor(new Heal());
         getCommand("kill").setExecutor(new Kill());
+        getCommand("playervault").setExecutor(new PlayerVault());
     }
 
 }

@@ -16,6 +16,9 @@ commands:
     description: Sets player hunger to full
   kill:
     description: Kill yourself / Kill a player
+  playervault:
+    description: Opens player vault with 45 slots.
+    aliases: [vault, pv, pvault]
 
   damage:
     description: Removes 1 heart from player
